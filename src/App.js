@@ -1,4 +1,3 @@
-import { listenerCount } from 'process';
 import React, {Component} from 'react'
 import './App.css';
 import List from './List'
@@ -14,7 +13,7 @@ class App extends Component {
   };
 
   render() {
-    const { store } = this.props
+    //const  store  = this.props
     return (
       <main className='App'>
         <header className='App-header'>
